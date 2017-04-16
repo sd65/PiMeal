@@ -1,0 +1,141 @@
+/* Hello le monde */
+
+
+html {
+  height: 100%;
+}
+
+hr {
+	margin-bottom : 10px;
+}
+
+h1 {
+font-size : 40px ;
+margin-bottom : 45px ;
+text-align : center ;
+}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+font-weight: 100; 
+} 
+
+h2 {
+color : #BC1142;
+font-size : 1em;
+}
+
+#page {
+width : 600px ;
+margin : auto ;
+font-size : 1.4em; ;
+}
+
+
+p {
+font-weight: 400; 
+}
+
+a {
+color : #BC1142 ;
+text-decoration : none;
+
+}
+
+#a {
+margin-top : -42px;
+text-align : right ;
+}
+
+
+
+table
+{
+    border-collapse: collapse; 
+    margin :  0 auto ;
+}
+
+td, th, caption
+{
+    border: 1px solid black; 
+}
+
+caption
+{
+padding-top : 5px ;
+padding-bottom : 5px ;
+}
+
+th
+{
+color : #BC1142 ;
+padding : 5px 11px 5px 11px ;
+}
+
+.we
+{
+background-color : #BC1142 ;
+color : white ;
+}
+
+#calcul
+{
+padding-top : 7px ;
+padding-bottom : 7px ;
+background-color : #BC1142 ;
+color : white ;
+}
+
+#rec1{
+	width:20px ;
+	height : 220% ;
+	background:#BC1142;
+	position: absolute;
+	left : 0px ;
+	margin-top : -40px ;
+	
+}
+
+#rec2{
+	width:20px ;
+	height : 220% ;
+	background:#BC1142;
+	position: absolute;
+	right : 0px ;
+	margin-top : -40px ;
+	
+}
+
+#soumettre 
+{
+margin-top : 60px ;
+width : 450px ;
+height : 50px ;
+background-color: #BC1142 ;
+color:white ; 
+font-size : 1em ;
+font-weight:bold ;
+}
+
+#plus
+{
+text-align: center;
+}
+
+@media screen and (orientation : portrait) and (max-device-width: 481px) {
+
+#soumettre 
+{
+width : 479px ;
+height : 130px ;
+}
+
+#page {
+width : 480px ;
+}
+
+#rec1, #rec2 {
+width : 0px ;	
+}
+
+}
